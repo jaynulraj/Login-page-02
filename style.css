@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+body{
+	background-image: linear-gradient(#D1408F, #0C50C4);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+}
+
+ .box{
+ 	width: 380px;
+ 	height: 620px;
+ 	background:#FFFFFF ;
+ 	margin: auto;
+ 	border: 1px transparent;
+ 	margin-top: 30px;
+ 	position: relative;
+ 	padding: 20px;
+ }
+
+ .logo{
+ 	width: 180px;
+ 	margin: auto;
+ 	margin-left: 85px;
+
+
+ }
+
+ .logo img{
+ 	margin: auto;
+ 	margin-top: 50px;
+ }
+
+.form{
+	margin-top: 65px;
+}
+
+.form p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+}
+ .inputbox{
+ 	width: 290px;
+ 	height: 50px;
+  	display: block;
+ 	margin: auto;
+ 	padding: 0 10px;
+ 	box-sizing: border-box;
+ 	background-color: #E6E6E6;
+ 	border: none;
+ }
+
+ input::placeholder{
+	letter-spacing: 2px;
+	color: black;
+	font-size:20px;
+ }
+
+ button{
+ 	width: 290px;
+ 	height: 50px;
+ 	display: block;
+ 	margin: auto;
+ 	color: white;
+ 	background-color: #D23F8D;
+ 	border: none;
+ 	font-size: 20px;
+ 	font-weight: 700;
+ }
+
+ .futar p{
+ 	text-align: center;
+ }
+
+ .futar h5{
+ 	text-align: center;
+ 	color:#D23F8D; 
+ }
